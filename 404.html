@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>LinkCode a déménagé</title>
+<link rel="canonical" href="https://natxmans.github.io/linkcode/">
+<script>
+  // Natx Code s'appelle maintenant LinkCode : on garde la page, les paramètres et le # (la progression reste dans le navigateur)
+  (function () {
+    var page = location.pathname.replace(/^\/natx-code(\/|$)/, '/');
+    location.replace('https://natxmans.github.io/linkcode' + page + location.search + location.hash);
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=https://natxmans.github.io/linkcode/"></noscript>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #15121f; color: #f1edff; font-family: system-ui, sans-serif; text-align: center; padding: 16px; }
+  a { color: #b9a2ff; font-weight: 700; }
+</style>
+</head>
+<body>
+  <main>
+    <p>Natx Code s'appelle maintenant <b>LinkCode</b> !</p>
+    <p><a href="https://natxmans.github.io/linkcode/">Aller sur LinkCode</a></p>
+  </main>
+</body>
+</html>
